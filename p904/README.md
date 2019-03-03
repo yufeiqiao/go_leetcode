@@ -46,3 +46,24 @@ Note:
 
 `1 <= tree.length <= 40000`
 `0 <= tree[i] < tree.length`
+
+```go
+package p904
+const num_of_baskets = 2
+const empty_flag = -1
+
+type slidingBaskets struct {
+	fruits     []int
+	fruitTypes [num_of_baskets]int
+	maxLength  int
+}
+func (B *slidingBaskets) add(f int) {
+func (B *slidingBaskets) addTypeOf(f int) {
+func (B *slidingBaskets) had(f int) bool {
+func (B *slidingBaskets) hasEmptyBasket() bool {
+func (B *slidingBaskets) typeToEmpty() *int {
+func (B *slidingBaskets) emptyOneBasket() {
+func newBasket() slidingBaskets {
+
+func TotalFruit(tree []int) int {
+```
