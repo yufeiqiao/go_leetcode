@@ -1,4 +1,4 @@
-package p904
+package main
 
 const num_of_baskets = 2
 const empty_flag = -1
@@ -111,4 +111,8 @@ func TotalFruit(tree []int) int {
 	}
 
 	return B.maxLength
+}
+
+func main() {
+
 }
